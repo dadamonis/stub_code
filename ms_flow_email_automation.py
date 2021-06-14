@@ -20,10 +20,10 @@ def send_email_notification( ) -> None:
     url = '<your_msflow_url>'
 
     headers = {'Content-type': 'application/json'}
-    body ={'emailaddress': '',
-           'emailSubject':'',
-           'emailBody':f"""<your_message>: """,
-           'errors':f"""<your_error_messages>"""
+    body ={'emailaddress': '<your_email_address>',
+           'emailSubject':'<your_email_subject_line',
+           'emailBody':'<your_email_message>',
+           'errors':'<your_error_messages>'
           }
 
     r = requests.post(url, 
