@@ -6,3 +6,5 @@
 code snippets and shareable bits
 
 It's all good, shareable code.
+
+foo
